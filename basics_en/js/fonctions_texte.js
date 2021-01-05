@@ -42,7 +42,7 @@ function test(e)
 	if (recommencer == false)
 		nb_err++;
 	recommencer = true;
-    document.getElementById("resultats").innerHTML = '<strong style="color:red">Faites Entrée ou terminez la ligne pour la recommencer sans faute ('+(nb_recom+1)+'/'+nb_tentatives_recom+').</strong>';
+    document.getElementById("resultats").innerHTML = '<strong style="color:red">Press ENTER or end the line for another attempt. ('+(nb_recom+1)+'/'+nb_tentatives_recom+').</strong>';
   }
 
 	if (touche == 13 || val.length >= le_texte[l-1].length+1)
@@ -282,14 +282,14 @@ function aff_result() // replacer les undefined par des espaces insécables (pou
 {
   var txt="";
   if(nb_err > 5)
-    txt = " Il semblerait que vous ne maîtrisez pas encore totalement cet exercice, vous pouvez le recommencer si vous le souhaitez."; 
+    txt = " It looks like you are not completely at ease with this exercice. You can redo it if you want.";
 
 	if (nb_err == 0)
-    document.getElementById("resultats").innerHTML = "Félicitations ! Vous n'avez fait aucune erreur !";	  
+    document.getElementById("resultats").innerHTML = "Congratulations! You didn't make any error!";
   else if (nb_err < 2)
-    document.getElementById("resultats").innerHTML = "Vous avez fait "+nb_err+" erreur.";
+    document.getElementById("resultats").innerHTML = "You have done "+nb_err+" error.";
 	else
-    document.getElementById("resultats").innerHTML = "Vous avez fait "+nb_err+" erreurs."+txt;	
+    document.getElementById("resultats").innerHTML = "You have done "+nb_err+" errors."+txt;
 	document.getElementById("rd_txt").innerHTML = "";
 
 	nb_err = 0;

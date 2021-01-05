@@ -317,21 +317,22 @@ function color_key()
 
 var bepo=[];
 
-bepo[0]={version:"BÉPO V1.0"};
+bepo[0]={version:"NOT IMPLEMENTED (for the other layers, press SHIFT, ALT, ALT-GR or ALT+SHIFT)"};
 bepo[0].lvl=[];
-bepo[0].lvl[0]= "$\"«»()@+-/*=%bépoè^vdljzwauie,ctsrnmçêàyx.k'qghf";
-bepo[0].lvl[1]= "#1234567890°`BÉPOÈ!VDLJZWAUIE;CTSRNMÇÊÀYX:K?QGHF";
-bepo[0].lvl[2]= "–—<>[]       | &œ ¡      æù¨€’        \\{}… ¿    ";
-bepo[0].lvl[3]= " „“”≤≥        ˝ Œ        ÆÙ            ‘’·      ";
-bepo[0].splvl=["esp", "esp ins", "_", "esp ins fine"];
+bepo[0].lvl[0]= "";
+bepo[0].lvl[1]= "";
+bepo[0].lvl[2]= "";
+bepo[0].lvl[3]= "";
+bepo[0].splvl=["esp", "esp ins fine", "_", "esp ins"];
+bepo[0].splvl=["SPACE", "non-breaking space", "_", "NNBSP"];
 
-bepo[1]={version:"BÉPO V1.1"};
+bepo[1]={version:"MS Tibetan (for the other layers, press SHIFT, ALT, ALT-GR or ALT+SHIFT)"};
 bepo[1].lvl=[];
-bepo[1].lvl[0]= "$\"«»()@+-/*=%bépoè^vdljzwauie,ctsrnmçêàyx.k’qghf";
-bepo[1].lvl[1]= "#1234567890°`BÉPOÈ!VDLJZWAUIE;CTSRNMÇÊÀYX:K?QGHF";
-bepo[1].lvl[2]= "–—<>[]       | &œ ¡      æù¨€'       /\\{}… ¿    ";
-bepo[1].lvl[3]= " „“”⩽⩾       _˝ Œ        ÆÙ          ^ ‘’·      ";
-bepo[1].splvl=["esp", "esp ins fine", "_", "esp ins"];
+bepo[1].lvl[0]= "ཨ༡༢༣༤༥༦༧༨༩༠ཧཝཅཆེརཏཡིོུཕཙཚའསདབངམ་གལཞ།ཛ<ཟཤཀཁཔན↓ཐཇཉ";
+bepo[1].lvl[1]= "༁༡༢༣༤༥༦༧༨༩༠༼༽༕༖༗ྼཊྻ༘༙༚༛༜༝ཱ༟ཌ༾༿࿏༂༃༆༇༸༞>༴ཥཀྵ྇྆ཎྛ༺༻";
+bepo[1].lvl[2]= "ྸ༄༅ཾ༷༵ྃཿ༔༑༈ྷྺྕྖཻྲྟྱྭྀཽྥྩྪྰྶྡྦྔྨ྄ྒླྮ༎ྫ|ྯྴྐྑྤྣ྅ྠྗྙ";
+bepo[1].lvl[3]= "ༀྲྀཷླྀཹཱྀ༉༊༏༐༒༌༓ྉྈ྾ཪྚ྿ཱཱིུ࿀࿁࿂࿃࿄࿅ྜབྷ࿆࿇࿈གྷ࿉࿊࿋ཛྷ¦࿌ྵྐྵ༶ྂྞདྷྛྋྊ";
+bepo[1].splvl=["SPACE", "non-breaking space", "_", "NNBSP"];
 
 var k=0;
 var bepo_index=1; // par défaut v1.1

@@ -321,8 +321,8 @@ bepo[0]={version:"Monlam (for the other levels, press SHIFT, ALT, ALT-GR or ALT+
 bepo[0].lvl=[];
 bepo[0].lvl[0]= "་༡༢༣༤༥༦༧༨༩༠ྀྃཊཝེརཏཡིོུཔ྄༷༔↓སདངགཧཇཀལཌྷའ ཟཙཅཌབནམྱྲ།";
 bepo[0].lvl[1]= "༸༑༄༅༁྆༈《》༼༽ཱྀཾཋྭཻྲཐྱཱྀཽུཕྂྃ྾ཨཤཛདྷགྷྷཛྷཁླཿྰ ཞཚཆཎབྷཉཥ༑ླཀ";
-bepo[0].lvl[2]= "";
-bepo[0].lvl[3]= "";
+bepo[0].lvl[2]= "                                                  ";
+bepo[0].lvl[3]= "                                                  ";
 bepo[0].splvl=["་", "SPACE", "", ""];
 
 bepo[1]={version:"MS Himalaya (for the other levels, press SHIFT, ALT, ALT-GR or ALT+SHIFT)"};

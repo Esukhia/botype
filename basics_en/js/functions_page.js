@@ -339,7 +339,7 @@ function kb_decal()
 {
 	var row_dec = new Array(0,35,41,28);
 	var key_per_row = new Array(13,12,12,11);
-	var space_key={"row_dec":107,"width":123};
+	var space_key={"row_dec":178,"width":242};
 	k=0;
 	var row=0;
 	var diff=0;
@@ -372,7 +372,7 @@ function kb_typematrix()
 	var row_dec = new Array(0,26,26,26);
 	var key_per_row = new Array(13,12,11,11);
 	var key_space = new Array(6,5,5,5);
-	var space_key={"row_dec":104,"width":117};
+	var space_key={"row_dec":175,"width":210}
 	k=0;
 	var row=0;
 

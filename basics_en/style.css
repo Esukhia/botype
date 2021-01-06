@@ -77,8 +77,18 @@ p {
 	font-family: Qomolangma-UchenSarchen;
 	font-size:25px;
 }
-#ksp{
-	font-size:0.8em;
+.ksp{
+	border:1px solid black;
+	border-radius:3px;
+	margin:4px;
+	width:40px;
+	height:40px;
+	text-align:center;
+	vertical-align:middle;
+	background-color:white;
+	float:left;
+	font-family: Qomolangma-UchenSarchen;
+	font-size:25px;
 }
 
 input[type=button], button {

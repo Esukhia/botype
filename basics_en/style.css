@@ -74,6 +74,8 @@ p {
 	vertical-align:middle;
 	background-color:white;
 	float:left;
+	font-family: Qomolangma-UchenSarchen;
+	font-size:25px;
 }
 #ksp{
 	font-size:0.8em;
@@ -175,7 +177,7 @@ img {
   width:680px;
   height:40px;
   font-family:Qomolangma-UchenSarchen;
-  font-size:36px;
+  font-size:25px;
   margin-bottom:5px;
   
 }
